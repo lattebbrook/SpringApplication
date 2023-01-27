@@ -1,5 +1,3 @@
-/** UPLOAD TO GITHUB */
-
 package web;
 
 import java.util.Arrays;
