@@ -1,0 +1,7 @@
+# server.port = 3000;
+server:
+  port: 3000
+# spring.freemarker.suffix = .html <-- will read html file.
+spring:
+    freemarker:
+        suffix: .html

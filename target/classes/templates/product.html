@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/normalize.css">
+        <title>Product</title>
+    </head>
+    <body>
+    <header><h1>There are many products here ${brand}</h1></header>
+    <main> <#list data as x> <button>${x}</button></#list></main> <!--<!-- list all data as arrays -->
+    </body>
+    <style>
+	h1 { display: inline-block; }
+	
+        html {
+		font-family: sans-serif;
+		background: rgb(247, 249, 249);
+		}
+    </style>
+</html>
