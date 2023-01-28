@@ -1,5 +1,3 @@
-/** UPLOAD TO GITHUB */
-
 package web;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,7 +78,7 @@ Spring Boot Data JDBC
 1. Print to standard output @Component
 2. Create Web Service       @RestController
                             @Controller @ResponseBody
-ไม่ว่าจะเชื่อมต่อตัวไหนต้องใช้ Connection String
+ไม่ว่าจะเชื่อมต่อตัวไหนต้องใช้ Connection String 
 
 connectionString = "jdbc:mysql://127.0.0.1/random?user=jeff&password=bezos";
 
