@@ -1,11 +1,35 @@
 # SpringApplication
-Using Java Spring framework to connect MySQL and Business Logic
+Using Java Spring framework to connect to MySQL and perform Business Logic while displaying the file back to Web Page or App.
 
 ## Requirement
-1. MySQL 
-``` sudo apt install mysql-server ```
+1. Maven
+2. MySQL
+3. Springframework
 
-2. Spring Boot Framework
+### For Ubuntu 
+``` sudo apt install mysql-server ```<br>
+
+### For Windows CD into the mysql directory: 
+Open the first terminal to initialize mysqld to get temporary password:<br>
+``` \bin\mysqld.exe --console --initialize ```<br>
+Open the second terminal to login as root with temporary password:<br>
+``` \bin\mysql.exe --user root --password ```<br>
+Change the password by using:<br>
+``` alter user root@localhost identified by '<Yourpassword>'; ```<br>
+Start the database server:<br>
+```\tools\mysql\bin\mysqld --console```
+
+### Check your SQL status by: show databases;  
+``` 
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+``` 
 
 ## Pom.xml dependencies requirements
 ```<dependencies>
